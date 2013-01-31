@@ -18,10 +18,15 @@
 		D9E24F8E16B78F3A00DFAC72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E24F8D16B78F3A00DFAC72 /* Default-568h@2x.png */; };
 		D9E24F9116B78F3A00DFAC72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E24F8F16B78F3A00DFAC72 /* MainStoryboard.storyboard */; };
 		D9E24F9416B78F3A00DFAC72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E24F9316B78F3A00DFAC72 /* ViewController.m */; };
+		DB36F0A916B83132006105BC /* unpressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36F0A516B83132006105BC /* unpressed@2x.png */; };
+		DB36F0AA16B83132006105BC /* unpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36F0A616B83132006105BC /* unpressed.png */; };
+		DB36F0AB16B83132006105BC /* pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36F0A716B83132006105BC /* pressed@2x.png */; };
+		DB36F0AC16B83132006105BC /* pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36F0A816B83132006105BC /* pressed.png */; };
+		DBAD93E816B9F7A400C610FB /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAD93E716B9F7A400C610FB /* ConfigViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9E24F7416B78F3A00DFAC72 /* PortaoGaragem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortaoGaragem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E24F7416B78F3A00DFAC72 /* iGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E24F7716B78F3A00DFAC72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9E24F7916B78F3A00DFAC72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9E24F7B16B78F3A00DFAC72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -37,6 +42,12 @@
 		D9E24F9016B78F3A00DFAC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D9E24F9216B78F3A00DFAC72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D9E24F9316B78F3A00DFAC72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB36F0A516B83132006105BC /* unpressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unpressed@2x.png"; sourceTree = "<group>"; };
+		DB36F0A616B83132006105BC /* unpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unpressed.png; sourceTree = "<group>"; };
+		DB36F0A716B83132006105BC /* pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressed@2x.png"; sourceTree = "<group>"; };
+		DB36F0A816B83132006105BC /* pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressed.png; sourceTree = "<group>"; };
+		DBAD93E616B9F7A400C610FB /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		DBAD93E716B9F7A400C610FB /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +76,7 @@
 		D9E24F7516B78F3A00DFAC72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9E24F7416B78F3A00DFAC72 /* PortaoGaragem.app */,
+				D9E24F7416B78F3A00DFAC72 /* iGate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +99,12 @@
 				D9E24F8F16B78F3A00DFAC72 /* MainStoryboard.storyboard */,
 				D9E24F9216B78F3A00DFAC72 /* ViewController.h */,
 				D9E24F9316B78F3A00DFAC72 /* ViewController.m */,
+				DBAD93E616B9F7A400C610FB /* ConfigViewController.h */,
+				DBAD93E716B9F7A400C610FB /* ConfigViewController.m */,
+				DB36F0A516B83132006105BC /* unpressed@2x.png */,
+				DB36F0A616B83132006105BC /* unpressed.png */,
+				DB36F0A716B83132006105BC /* pressed@2x.png */,
+				DB36F0A816B83132006105BC /* pressed.png */,
 				D9E24F7E16B78F3A00DFAC72 /* Supporting Files */,
 			);
 			path = PortaoGaragem;
@@ -124,7 +141,7 @@
 			);
 			name = PortaoGaragem;
 			productName = PortaoGaragem;
-			productReference = D9E24F7416B78F3A00DFAC72 /* PortaoGaragem.app */;
+			productReference = D9E24F7416B78F3A00DFAC72 /* iGate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,6 +180,10 @@
 				D9E24F8C16B78F3A00DFAC72 /* Default@2x.png in Resources */,
 				D9E24F8E16B78F3A00DFAC72 /* Default-568h@2x.png in Resources */,
 				D9E24F9116B78F3A00DFAC72 /* MainStoryboard.storyboard in Resources */,
+				DB36F0A916B83132006105BC /* unpressed@2x.png in Resources */,
+				DB36F0AA16B83132006105BC /* unpressed.png in Resources */,
+				DB36F0AB16B83132006105BC /* pressed@2x.png in Resources */,
+				DB36F0AC16B83132006105BC /* pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				D9E24F8416B78F3A00DFAC72 /* main.m in Sources */,
 				D9E24F8816B78F3A00DFAC72 /* AppDelegate.m in Sources */,
 				D9E24F9416B78F3A00DFAC72 /* ViewController.m in Sources */,
+				DBAD93E816B9F7A400C610FB /* ConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +285,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PortaoGaragem/PortaoGaragem-Prefix.pch";
 				INFOPLIST_FILE = "PortaoGaragem/PortaoGaragem-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iGate;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +297,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PortaoGaragem/PortaoGaragem-Prefix.pch";
 				INFOPLIST_FILE = "PortaoGaragem/PortaoGaragem-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = iGate;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +322,7 @@
 				D9E24F9916B78F3A00DFAC72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

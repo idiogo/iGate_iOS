@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *botao;
+@property (strong, nonatomic) IBOutlet UIButton *led;
+
+- (IBAction)turnOn:(id)sender;
+- (IBAction)turnOff:(id)sender;
+
 @end
